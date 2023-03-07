@@ -1,0 +1,1177 @@
+/* HEADER */
+header{
+    background-color: rgb(85, 10, 33);
+    position: sticky;
+    top: 0px;
+}
+
+/*HEADER SECTION DESKOPT*/
+    .header-section-deskopt{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-section-mobile{
+        display: none;
+    }
+
+/*DIV LOGO Y H1*/
+    .div-logo-h1{
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+    }
+    .h1{
+        margin-top: 5px;
+        font-size: 34px;
+        font-family: 'Aboreto', cursive;
+        color: #FFFAFB;
+    }
+
+    .logo-caballo{
+        font-size: 40px;
+        color: #FFFAFB;
+        margin: 5px;
+    }
+
+/*NAVBAR*/
+    .header-nav{
+        display: flex;
+        list-style: none;
+        border: #100B00 solid 2px;
+        border-radius: 10px;
+        background-color: #C1C1C3;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header-nav-a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #100B00;
+        font-family: 'Lato', sans-serif;
+        --bs-nav-link-hover-color:  #FFFAFB;
+    }
+
+/*ICONOS HEADER DERECHA*/
+    .header-section-iconos{
+        display: flex;
+        flex-direction: row;
+        align-content: end;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .header-section-iconos-espacio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .header-section-iconos-letra{
+        text-decoration: none;
+        font-size: 15px;
+        color: #FFFAFB;
+        margin: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .header-section-iconos-borde{
+        padding: 10px;
+        border: #100B00 solid 2px;
+        border-radius: 50px;
+        color: #100B00;
+        font-size: 22px;
+        background-color: #C1C1C3;
+    }
+
+/*MAIN*/
+main{
+    background-color: #FFFAFB;
+}
+    /*INDEX*/
+        /*PROMO 3X2*/
+            .main-section-promo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+                background-image: url(../Imagenes/fondo3x2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .main-section-promo h1{
+                color: rgb(85, 10, 33);
+                font-family: 'Unbounded', cursive;
+                font-weight: bolder;
+            }
+
+            .main-section-promo h1:nth-child(1){
+                font-size: 140px;
+            }
+
+            .main-section-promo h1:nth-child(2){
+                font-size: 50px;
+            }
+
+            .main-section-promo h1:nth-child(3){
+                font-size: 25px;
+            }
+
+        /*AVISOS*/
+            .main-aviso{
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                margin-bottom: 10px;
+            }
+            
+            .main-aviso div{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+            }
+            
+            .main-aviso div i{
+            padding: 10px;
+            font-size: 30px;
+            border-radius: 50px;
+            color: rgb(85, 10, 33);
+            }
+            
+            .main-aviso div h1{
+                font-size: 30px;
+                color: rgb(85,10,33);
+                font-family: 'Lato', sans-serif;
+                font-weight: lighter; 
+            }
+
+        /*BUSCADOR*/
+            .main-buscador{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .main-buscador-input{
+                width: 50%;
+                height: 50px;
+                border-radius: 10px;
+                border: black solid 2px;
+                font-size: 15px;
+                padding: 5px;
+                font-family: 'Lato', sans-serif;
+            }
+
+            .main-buscador-lupa{
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+            }
+
+            .main-buscador-lupa:hover{
+                color: #C1C1C3;
+            }
+
+            .main-buscador-button{
+                padding: 4px;
+                margin: 10px;
+                background-color: #FFFAFB;
+                border: 0px;
+            }
+
+
+        /*FOTOS OFERTAS*/
+            .main-h3-ofertas{
+                font-family: 'Unbounded', cursive;
+                font-weight: lighter;
+                text-decoration: underline;
+                text-decoration-color: #100B00;
+                font-size: 30px;
+            }
+
+            .main-section-ofertas-deskopt{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .main-section-ofertas-fotos{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+            }
+
+            .main-section-ofertas-fotos img{
+                background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                border: 1px rgba(193, 193, 195, 0.9) solid;
+            }
+
+            .main-section-ofertas-fotos img:hover{
+                border: 1px #100B00 solid;
+            }
+
+            .main-ofertas-letra-tachado{
+                display: flex;
+                font-family: 'Unbounded', cursive;
+                font-weight: normal;
+                font-size: 15px;
+                text-decoration: line-through;
+            }
+            
+            .main-ofertas-letra{
+                display: flex;
+                font-family: 'Unbounded', cursive;
+                font-weight: normal;
+                font-size: 20px;
+                font-weight: bolder; 
+            }
+
+            .main-section-ofertas-mobile{
+                display: none;
+            }
+
+        /*FOTOS NUEVOS INGRESOS*/
+            .main-h3-ingresos{
+                font-family: 'Unbounded', cursive;
+                font-weight: lighter;
+                text-decoration: underline;
+                text-decoration-color: #100B00;
+                font-size: 30px;
+            }
+
+            .main-section-ingresos-deskopt{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .main-section-ingresos-fotos{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                gap: 10px;
+            }
+
+            .main-section-ingresos-fotos img{
+                background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                border: 1px rgba(193, 193, 195, 0.9) solid;
+            }
+
+            .main-section-ingresos-fotos img:hover{
+                border: 1px #100B00 solid;
+            }
+            
+            .main-ingresos-letra{
+                font-family: 'Unbounded', cursive;
+                font-weight: normal;
+                font-size: 20px;
+                font-weight: bolder; 
+            }
+
+            .main-section-ingresos-mobile{
+                display: none;
+            }
+
+    /*REMERAS*/
+            /*LABEL TALLES*/
+                .main-label-borde{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: #100B00 solid 2px;
+                    padding: 4px;
+                }
+
+                .main-label-div1{
+                    display: flex;
+                    flex-direction: column;
+                    align-self: start;
+                }
+
+                .main-label-div2{
+                    display: flex;
+                    flex-direction: column;
+                    align-self: end;
+                    gap: 5px;
+                }
+
+                .main-label-h1{
+                    font-size: 25px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: lighter;
+                }
+                
+                .main-label-h3{
+                    display: flex;
+                    font-size: 20px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: lighter;
+                    text-decoration: none;
+                }
+
+                .main-label-texto{
+                    font-size: 15px;
+                    font-family: 'Lato', sans-serif;
+                    margin: 5px;
+                }
+
+            /*CAMISAS*/
+                .main-section-camisas-deskopt{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .main-section-camisas-mobile{
+                    display: none;
+                }
+
+                .main-section-camisas-card{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+
+                .main-section-camisas-deskopt h3{
+                    font-family: 'Unbounded', cursive;
+                    font-weight: lighter;
+                    text-decoration: underline;
+                    text-decoration-color: #100B00;
+                    font-size: 30px;
+                    margin: 10px;
+                }
+
+                .main-section-camisas-card-fotos{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    gap: 10px;
+                    font-size: 20px;
+                    font-family: 'Unbounded', cursive;
+                    margin-left: 10px;
+                    font-weight: normal;
+                }
+
+                .main-section-camisas-card-fotos img{
+                    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                    border: 1px rgba(193, 193, 195, 0.9) solid;
+                }
+
+                .main-section-camisas-card-fotos img:hover{
+                    border: 1px #100B00 solid;
+                }
+            
+            /*REMERAS CORTAS*/
+                .main-section-remerasC-deskopt{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .main-section-remerasC-mobile{
+                    display: none;
+                }
+
+                .main-section-remerasC-card{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+
+                .main-section-remerasC-deskopt h3{
+                    font-family: 'Unbounded', cursive;
+                    font-weight: lighter;
+                    text-decoration: underline;
+                    text-decoration-color: #100B00;
+                    font-size: 30px;
+                    margin: 10px;
+                }
+
+                .main-section-remerasC-card-fotos{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    gap: 10px;
+                    font-size: 20px;
+                    font-family: 'Unbounded', cursive;
+                    margin-left: 10px;
+                    font-weight: normal;
+                }
+
+                .main-section-remerasC-card-fotos img{
+                    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                    border: 1px rgba(193, 193, 195, 0.9) solid;
+                }
+    
+                .main-section-remerasC-card-fotos img:hover{
+                    border: 1px #100B00 solid;
+                }
+
+            /*REMERAS LARGAS*/
+                .main-section-remerasL-deskopt{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .main-section-remerasL-mobile{
+                    display: none;
+                }
+
+                .main-section-remerasL-card{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+
+                .main-section-remerasL-deskopt h3{
+                    font-family: 'Unbounded', cursive;
+                    font-weight: lighter;
+                    text-decoration: underline;
+                    text-decoration-color: #100B00;
+                    font-size: 30px;
+                    margin: 10px;
+                }
+
+                .main-section-remerasL-card-fotos{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    gap: 10px;
+                    font-size: 20px;
+                    font-family: 'Unbounded', cursive;
+                    margin-left: 10px;
+                    font-weight: normal;
+                }
+
+                .main-section-remerasL-card-fotos img{
+                    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                    border: 1px rgba(193, 193, 195, 0.9) solid;
+                }
+
+                .main-section-remerasL-card-fotos img:hover{
+                    border: 1px #100B00 solid;
+                }
+
+                .main-section-remeras-mobile-h3{
+                    display: none;
+                }
+
+    /*PANTALONES*/
+        .main-section-pantalonesL-deskopt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-section-pantalonesL-mobile{
+            display: none;
+        }
+
+        .main-section-pantalonesC-deskopt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-section-pantalonesC-mobile{
+            display: none;
+        }
+
+        .main-section-mallas-deskopt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-section-mallas-mobile{
+            display: none;
+        }
+
+        .main-section-pantalones-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .main-section-pantalones-deskopt-h3{
+            font-family: 'Unbounded', cursive;
+            font-weight: lighter;
+            text-decoration: underline;
+            text-decoration-color: #100B00;
+            font-size: 30px;
+            margin: 10px;
+        }
+
+        .main-section-pantalones-card-fotos{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            gap: 10px;
+            font-size: 20px;
+            font-family: 'Unbounded', cursive;
+            margin-left: 10px;
+            font-weight: normal;
+        }
+
+        .main-section-pantalones-card-fotos-p-mobile{
+            display: none;
+        }
+
+        .main-section-pantalones-card-fotos img{
+            background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+            border: 1px rgba(193, 193, 195, 0.9) solid;
+        }
+
+        .main-section-pantalones-card-fotos img:hover{
+            border: 1px #100B00 solid;
+        }
+
+        .main-section-pantalones-mobile-h3{
+            display: none;
+        }
+
+    /*ROPA INTERIOR*/
+        .main-section-ropaInteriorHombre-deskopt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-section-ropaInteriorHombre-mobile{
+            display: none;
+        }
+
+        .main-section-ropaInteriorMujer-deskopt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-section-ropaInteriorMujer-mobile{
+            display: none;
+        }
+
+        .main-section-ropaInterior-card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .main-section-ropaInterior-deskopt-h3{
+            font-family: 'Unbounded', cursive;
+            font-weight: lighter;
+            text-decoration: underline;
+            text-decoration-color: #100B00;
+            font-size: 30px;
+            margin: 10px;
+        }
+
+        .main-section-ropaInterior-mobile-h3{
+            display: none;
+        }
+
+        .main-section-ropaInterior-card-fotos{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            gap: 10px;
+            font-size: 20px;
+            font-family: 'Unbounded', cursive;
+            margin-left: 10px;
+            font-weight: normal;
+        }
+
+        .main-section-ropaInterior-card-fotos img{
+            background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+            border: 1px rgba(193, 193, 195, 0.9) solid;
+        }
+
+        .main-section-ropaInterior-card-fotos img:hover{
+            border: 1px #100B00 solid;
+        }
+
+    /*LOCALES*/
+        .main-locales-deskopt{
+            display: block;
+
+        }
+
+        .main-locales-mobile{
+            display: none;
+        }
+
+        .main-section-map-div{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+
+        .main-section-map-div h4{
+            font-family: 'Unbounded', cursive;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+/*FOOTER*/
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(26, 25, 25, 0.9);
+    }
+
+    /*CONTACTO*/
+        .footer-contacto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .footer-contacto div{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /*CONTACTO LETRA*/
+            .footer-contacto-letra{
+                font-family: 'Unbounded', cursive;
+                font-size: 25px;
+                font-weight: bolder;
+                color: #FFFAFB;
+                margin: 10px;
+            }
+
+            .footer-contacto-letra-link{
+                color: #FFFAFB;
+                font-family: 'Lato', sans-serif;
+                text-decoration: none;
+            }
+
+            .footer-contacto-logo{
+                margin: 5px;
+                color: #FFFAFB;
+            }
+
+    /*REDES SOCIALES*/
+    .footer-redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-redes div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-redes-letra{
+        font-family: 'Unbounded', cursive;
+        font-size: 25px;
+        font-weight: bolder;
+        color: #FFFAFB;
+        margin: 10px;
+    }
+
+    .footer-redes-logo{
+        font-size: 30px;
+        border: #C1C1C3 solid 2px;
+        padding: 8px;
+        border-radius: 50px;
+        background-color: rgba(193, 193, 195,0.6);
+        color: #FFFAFB;
+    }
+
+
+@media only screen and (max-width:576px){
+
+    /*HEADER*/
+        header{
+            position: relative;
+        }
+
+        .header-section-deskopt{
+            display: none;
+            padding: 0px;
+        }
+        
+        .header-section-mobile{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .offcanvas.offcanvas-start {
+            top: 0;
+            left: 0;
+            width: 40%;
+        }
+
+        /*NAVBAR*/
+            .offcanvas.offcanvas-start {
+                top: 0;
+                left: 0;
+                width: 40%;
+            }
+
+            .header-button{
+                background-color: #FFFAFB;
+                border: #100B00 2px solid;
+                border-radius: 10px;
+            }
+
+            .offcanvas-header{
+                background-color: #C1C1C3;
+                border-bottom: #100B00 1px solid;
+            }
+
+            .offcanvas-body{
+                background-color: #FFFAFB;
+                display: flex;
+                align-items: start;
+            }
+
+            .header-nav-a{
+                color: rgb(85, 10, 33);
+                font-size: 15px;
+            }
+
+            .btn-close{
+                --bs-btn-close-focus-shadow: none;
+            }
+
+            .navbar{
+                --bs-navbar-toggler-focus-width: none;
+            }
+        
+        /*LOGO-H1-ICONOS*/
+        
+            .header-section-mobile section{
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+            }
+        
+            /*LOGO-H1*/
+                .div-logo-h1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                }
+        
+                .h1{
+                    font-size: 25px;
+                    margin: 0px;
+                }
+        
+                .logo-caballo{
+                    display: flex;
+                    font-size: 30px;
+                    color: #FFFAFB;
+                }
+        
+        
+            /*ICONOS*/
+                .header-section-iconos{
+                    display: flex;
+                    flex-direction: row;
+                    align-content: center;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+        
+                .header-section-iconos-espacio{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 2px;
+                }
+        
+                .header-section-iconos-letra{
+                    text-decoration: none;
+                    font-size: 10px;
+                    color: #FFFAFB;
+                    font-family: 'Lato', sans-serif;
+                }
+        
+                .header-section-iconos-borde{
+                    padding: 5px;
+                    border: #100B00 solid 2px;
+                    border-radius: 50px;
+                    color: #100B00;
+                    font-size: 15px;
+                    background-color: #C1C1C3;
+                }
+
+    /*MAIN*/
+        /*INDEX*/
+            /*PROMO 3X2*/
+            .main-section-promo h1:nth-child(1){
+                font-size: 100px;
+            }
+
+            .main-section-promo h1:nth-child(2){
+                font-size: 30px;
+            }
+
+            .main-section-promo h1:nth-child(3){
+                font-size: 20px;
+            }
+
+            /*BUSCADOR*/
+                .main-buscador-input{
+                    width: 75%;
+                    height: 50px;
+                    border-radius: 10px;
+                    border: black solid 2px;
+                    font-size: 15px;
+                    padding: 5px;
+                    font-family: 'Lato', sans-serif;
+                }
+
+            /*AVISOS*/
+                .main-aviso{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+
+                .main-aviso div h1{
+                    font-size: 25px;
+                }
+
+                /*ICONO PREV Y NEXT FOTOS*/
+                    .carousel-control-next-icon{
+                        display: block;
+                        background-image:url(../Imagenes/chevron-right-solid.svg);
+                    }
+
+                    .carousel-control-prev-icon{
+                        display: block;
+                        background-image:url(../Imagenes/chevron-left-solid.svg);
+                    }
+
+            /*FOTOS OFERTAS*/
+                .main-section-ofertas-deskopt{
+                    display: none;
+                }
+
+                .main-section-ofertas-mobile{
+                    display: block;
+                }
+
+                .main-section-ofertas-fotos-mobile{
+                    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                    border: 1px rgba(193, 193, 195, 0.9) solid;
+                }
+
+                .main-section-ofertas-fotos-mobile:hover{
+                    border: 1px #100B00 solid;
+                }
+
+                .main-h3-ofertas{
+                    font-size: 20PX;
+                }
+
+            /*FOTOS NUEVOS INGRESOS*/
+                .main-section-ingresos-deskopt{
+                    display: none;
+                }
+
+                .main-section-ingresos-mobile{
+                    display: block;
+                }
+
+                .main-section-ingresos-fotos-mobile{
+                    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                    border: 1px rgba(193, 193, 195, 0.9) solid;
+                }
+
+                .main-section-ingresos-fotos-mobile:hover{
+                    border: 1px #100B00 solid;
+                }
+
+                .main-h3-ingresos{
+                    font-size: 20px;
+                }
+
+        /*REMERAS*/
+                /*H3*/
+                    .main-section-remeras-mobile-h3{
+                        display: flex;
+                        font-family: 'Unbounded', cursive;
+                        font-weight: lighter;
+                        text-decoration: underline;
+                        text-decoration-color: #100B00;
+                        font-size: 20px;
+                        margin: 10px;
+                    }
+
+                /*LABEL*/
+                    .main-label{
+                        display: flex;
+                    }
+
+                    .main-label-mobile{
+                        display: none;
+                    }
+
+                /*CAMISAS*/
+                    .main-section-camisas-deskopt{
+                        display: none;
+                    }
+
+                    .main-section-camisas-mobile{
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .main-section-camisas-fotos-img{
+                        background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                        border: 1px rgba(193, 193, 195, 0.9) solid;
+                    }
+
+                    .main-section-camisas-fotos-img:hover{
+                        border: 1px #100B00 solid;
+                    }
+
+                    .main-section-camisas-fotos-p{
+                        display: flex;
+                        font-size: 20px;
+                        font-family: 'Unbounded', cursive;
+                        margin-left: 10px;
+                        font-weight: normal;
+                    }
+
+                /*REMERAS CORTAS*/
+                    .main-section-remerasC-deskopt{
+                        display: none;
+                    }
+
+                    .main-section-remerasC-mobile{
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .main-section-remerasC-fotos-img{
+                        background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                        border: 1px rgba(193, 193, 195, 0.9) solid;
+                    }
+
+                    .main-section-remerasC-fotos-img:hover{
+                        border: 1px #100B00 solid;
+                    }
+
+                    .main-section-remerasC-fotos-p{
+                        display: flex;
+                        font-size: 20px;
+                        font-family: 'Unbounded', cursive;
+                        margin-left: 10px;
+                        font-weight: normal;
+                    }
+
+                /*REMERAS LARGAS*/
+                    .main-section-remerasL-deskopt{
+                        display: none;
+                    }
+
+                    .main-section-remerasL-mobile{
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .main-section-remerasL-fotos-img{
+                        background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                        border: 1px rgba(193, 193, 195, 0.9) solid;
+                    }
+
+                    .main-section-remerasL-fotos-img:hover{
+                        border: 1px #100B00 solid;
+                    }
+
+                    .main-section-remerasL-fotos-p{
+                        display: flex;
+                        font-size: 20px;
+                        font-family: 'Unbounded', cursive;
+                        margin-left: 10px;
+                        font-weight: normal;
+                    }
+
+        /*PANTALONES*/
+            /*H3*/
+                .main-section-pantalones-mobile-h3{
+                    display: flex;
+                    font-family: 'Unbounded', cursive;
+                    font-weight: lighter;
+                    text-decoration: underline;
+                    text-decoration-color: #100B00;
+                    font-size: 20px;
+                    margin: 10px;
+                    }
+
+            /*PANTALONES LARGOS*/
+                .main-section-pantalonesL-mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .main-section-pantalonesL-deskopt{
+                    display: none;
+                }
+
+                .main-section-pantalones-card-fotos-p-mobile{
+                    display: flex;
+                    font-size: 20px;
+                    font-family: 'Unbounded', cursive;
+                    font-weight: normal;
+                }
+
+                .main-section-pantalones-card-fotos-img-mobile{
+                    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                    border: 1px rgba(193, 193, 195, 0.9) solid;
+                }
+        
+                .main-section-pantalones-card-fotos-img-mobile:hover{
+                    border: 1px #100B00 solid;
+                }
+            
+            /*PANTALONES CORTOS*/
+                .main-section-pantalonesC-mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .main-section-pantalonesC-deskopt{
+                    display: none;
+                }
+
+            /*TRAJES DE BAÑO*/
+                .main-section-mallas-deskopt{
+                    display: none;
+                }
+        
+                .main-section-mallas-mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+        /*ROPA INTERIOR*/
+
+            .main-section-ropaInterior-card-fotos-p-mobile{
+                display: flex;
+                font-size: 20px;
+                font-family: 'Unbounded', cursive;
+                font-weight: normal;
+            }
+
+            .main-section-ropaInterior-card-fotos-img-mobile{
+                background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                border: 1px rgba(193, 193, 195, 0.9) solid;
+            }
+
+            .main-section-ropaInterior-card-fotos-img-mobile:hover{
+                border: 1px #100B00 solid;
+            }
+
+            /*H3*/
+                .main-section-ropaInterior-mobile-h3{
+                    display: flex;
+                    font-family: 'Unbounded', cursive;
+                    font-weight: lighter;
+                    text-decoration: underline;
+                    text-decoration-color: #100B00;
+                    font-size: 20px;
+                    margin: 10px;
+                }
+
+            /*ROPA INTERIOR HOMBRE*/
+                .main-section-ropaInteriorHombre-deskopt{
+                    display: none;
+                }
+        
+                .main-section-ropaInteriorHombre-mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            /*ROPA INTERIOR FEMENINA*/
+        
+                .main-section-ropaInteriorMujer-deskopt{
+                    display: none;
+                }
+        
+                .main-section-ropaInteriorMujer-mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+        /*LOCALES*/
+
+            .main-locales-deskopt{
+                display: none;
+        
+            }
+        
+            .main-locales-mobile{
+                display: block;
+            }
+
+            .main-section-map-div h4{
+                font-size: 12px;
+
+            }
+    /*FOOTER*/
+            footer{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+        /*CONTACTO*/
+            .footer-contacto div{
+                gap: 5px;
+                align-items: start;
+                margin-right: 3px;
+            }
+
+            /*CONTACTO LETRA*/
+                .footer-contacto-letra{
+                    font-size: 20px;
+                    margin: 5px;
+                }
+                .footer-contacto-letra-link{
+                    font-size: 15px;
+                }
+
+        /*REDES SOCIALES*/
+            .footer-redes{
+                align-items: end;
+                margin-left: 3px;
+            }
+
+            .footer-redes div{
+                gap: 7px;
+            }
+
+            .footer-redes-letra{
+                font-size: 20px;
+            }
+        
+            .footer-redes-logo{
+                font-size: 18px;;
+            }
+
+}
+    
+
+        
+
+
