@@ -1,0 +1,80 @@
+%titulos{
+    font-family: 'Unbounded', cursive;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: #100B00;
+    font-size: 30px;
+}
+
+%fotos{
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+}
+
+%fotos:hover{
+    border: 1px #100B00 solid;
+}
+
+%precio{
+    display: flex;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: normal;
+}
+
+%section-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+%section-fotos-ropa{
+    display: flex;
+    flex-direction: column;
+}
+
+%section-fotos-ropa-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+%section-card-ropa{
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3,100%);
+        overflow: hidden;
+        scroll-behavior: smooth;
+      section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px 0;
+        .item img{
+            margin-top: 10px;
+            padding: 0 2px;
+            background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+            border: 1px rgba(193, 193, 195, 0.9) solid;
+        }
+        .item p{
+            display: flex;
+            justify-content: center;
+            @extend %precio; 
+        }
+        a {
+          color: black;
+          text-decoration: none;
+          font-size: 6em;
+          width: 80px;
+          padding: 20px;
+          text-align: center;
+          display: flex;
+          align-items: center;   
+        }
+        
+      }
+    }
+}

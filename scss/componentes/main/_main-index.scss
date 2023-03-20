@@ -1,0 +1,183 @@
+main{
+    background-color: #FFFAFB;
+    margin: 0px;
+
+    .main-section-promo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        background-image: url(../Imagenes/fondo3x2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        h1{
+            color: rgb(85, 10, 33);
+            font-family: 'Unbounded', cursive;
+            font-weight: bolder;
+        
+        }
+
+        h1:nth-child(1) {
+            font-size: 140px;
+        }
+
+        h1:nth-child(2) {
+            font-size: 50px;
+        }
+
+        h1:nth-child(3) {
+            font-size: 25px;
+        }
+    }
+
+    .main-aviso{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 10px;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+            i{
+                padding: 10px;
+                font-size: 30px;
+                border-radius: 50px;
+                color: rgb(85, 10, 33);
+            }
+
+            h1{
+                font-size: 30px;
+                color: rgb(85,10,33);
+                font-family: 'Lato', sans-serif;
+                font-weight: lighter;
+            }
+        }
+    }
+
+    div{
+        .main-buscador{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 1%;
+
+            input{
+                width: 50%;
+                border-radius: 10px;
+                border: black solid 2px;
+                font-size: 15px;
+                padding: 5px;
+                font-family: 'Lato', sans-serif;
+            }
+
+            div{
+                button{
+                    padding: 4px;
+                    margin: 10px;
+                    background-color: #FFFAFB;
+                    border: 0px;
+
+                    i{
+                        font-size: 20px;
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    h3{
+        @extend %titulos;
+    }
+
+    .main-section-ofertas-deskopt {
+        overflow: hidden;
+       div{
+        div{
+            .catalog-cover {
+
+                ul{
+                    white-space: nowrap;
+                    overflow-x: hidden;
+
+                    li{
+                        display: inline-block;
+                        margin: 1%;
+                        padding: 10px;
+
+                        div{
+                            background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+                            border: 1px rgba(193, 193, 195, 0.9) solid;
+                            a{
+                                img{
+                                    transition: all 0.5s;
+                                }
+        
+                                img:hover{
+                                    transform: scale(1.1);
+                                }
+                            }
+                        }
+
+                        .main-ofertas-letra-tachado{
+                            display: flex;
+                            justify-content: center;
+                            @extend %precio;
+                            text-decoration: line-through;
+                            font-size: 15px;
+                        }
+
+                        p{
+                            display: flex;
+                            justify-content: center;
+                            @extend %precio;
+                            font-weight: bolder;
+                            margin: 0px;
+                        }
+                    }
+                }
+            }
+        }
+       }
+    }
+
+    .main-section-ingresos-deskopt{
+        @extend %section-fotos;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            a{
+                img{
+                    @extend %fotos;
+                }
+            }
+
+            p{
+                @extend %precio;
+            }
+        }
+    }
+
+    section{
+        .main-section-ofertas-mobile{
+            display: none;
+        }
+
+        .main-section-ingresos-mobile{
+            display: none;
+        }
+    }
+
+
+}
