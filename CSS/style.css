@@ -77,6 +77,9 @@ header {
 header .header-section-mobile {
   display: none;
 }
+header .header-section-laptop {
+  display: none;
+}
 header .header-section-deskopt {
   display: flex;
   flex-direction: row;
@@ -141,9 +144,6 @@ header .header-section-deskopt section div a {
   font-size: 15px;
   color: #FFFAFB;
   font-family: "Lato", sans-serif;
-}
-header .container-fluid {
-  --bs-gutter-x: 0%;
 }
 
 @media only screen and (max-width: 576px) {
@@ -239,6 +239,85 @@ header .container-fluid {
   }
   header .navbar {
     --bs-navbar-toggler-focus-width: none;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  header {
+    background-color: rgb(85, 10, 33);
+    position: sticky;
+    top: 0;
+    margin: 0px;
+  }
+  header .header-section-mobile {
+    display: none;
+  }
+  header .header-section-deskopt {
+    display: none;
+  }
+  header .header-section-laptop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .header-section-laptop div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+  header .header-section-laptop div i {
+    font-size: 36px;
+    color: #FFFAFB;
+    margin: 5px;
+  }
+  header .header-section-laptop div h1 {
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: "Aboreto", cursive;
+    color: #FFFAFB;
+  }
+  header .header-section-laptop ul {
+    display: flex;
+    list-style: none;
+    border: #100B00 solid 2px;
+    border-radius: 10px;
+    background-color: #C1C1C3;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  header .header-section-laptop ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #100B00;
+    font-family: "Lato", sans-serif;
+    --bs-nav-link-hover-color: #FFFAFB;
+  }
+  header .header-section-laptop section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+  header .header-section-laptop section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  header .header-section-laptop section div i {
+    padding: 10px;
+    border: #100B00 solid 2px;
+    border-radius: 50px;
+    color: #100B00;
+    font-size: 22px;
+    background-color: #C1C1C3;
+  }
+  header .header-section-laptop section div a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFAFB;
+    font-family: "Lato", sans-serif;
   }
 }
 main {

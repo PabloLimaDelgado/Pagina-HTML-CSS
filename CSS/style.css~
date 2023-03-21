@@ -1,0 +1,879 @@
+main h3 {
+  font-family: "Unbounded", cursive;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-color: #100B00;
+  font-size: 30px;
+}
+
+main .main-section-ingresos-deskopt div a img {
+  background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+  border: 1px rgba(193, 193, 195, 0.9) solid;
+}
+
+main .main-section-ingresos-deskopt div a img:hover {
+  border: 1px #100B00 solid;
+}
+
+main .main-section-ingresos-deskopt div p, main .main-section-ofertas-deskopt div div .catalog-cover ul li p, main .main-section-ofertas-deskopt div div .catalog-cover ul li .main-ofertas-letra-tachado, main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section .item p, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section .item p, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section .item p, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section .item p, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section .item p, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section .item p {
+  display: flex;
+  margin-top: 2%;
+  font-size: 20px;
+  font-family: "Unbounded", cursive;
+  font-weight: normal;
+}
+
+main .main-section-ingresos-deskopt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main section div .main-section-ropaInteriorHombre-deskopt {
+  display: flex;
+  flex-direction: column;
+}
+
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section .item img, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section .item img, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section .item img, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section .item img, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section .item img, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section .item img, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section .item img, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section .item img {
+  margin-top: 10px;
+  padding: 0 2px;
+  background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+  border: 1px rgba(193, 193, 195, 0.9) solid;
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section .item p, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section .item p, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section .item p, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section .item p, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section .item p, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section .item p {
+  display: flex;
+  justify-content: center;
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section a, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section a, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section a, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section a, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section a, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section a, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section a, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section a {
+  color: black;
+  text-decoration: none;
+  font-size: 6em;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  scroll-margin-top: 90px;
+}
+
+header {
+  background-color: rgb(85, 10, 33);
+  position: sticky;
+  top: 0;
+  margin: 0px;
+}
+header .header-section-mobile {
+  display: none;
+}
+header .header-section-deskopt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-section-deskopt div {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+header .header-section-deskopt div i {
+  font-size: 40px;
+  color: #FFFAFB;
+  margin: 5px;
+}
+header .header-section-deskopt div h1 {
+  margin-top: 5px;
+  font-size: 34px;
+  font-family: "Aboreto", cursive;
+  color: #FFFAFB;
+}
+header .header-section-deskopt ul {
+  display: flex;
+  list-style: none;
+  border: #100B00 solid 2px;
+  border-radius: 10px;
+  background-color: #C1C1C3;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header .header-section-deskopt ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #100B00;
+  font-family: "Lato", sans-serif;
+  --bs-nav-link-hover-color: #FFFAFB;
+}
+header .header-section-deskopt section {
+  display: flex;
+  flex-direction: row;
+  align-content: end;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+header .header-section-deskopt section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+header .header-section-deskopt section div i {
+  padding: 10px;
+  border: #100B00 solid 2px;
+  border-radius: 50px;
+  color: #100B00;
+  font-size: 22px;
+  background-color: #C1C1C3;
+}
+header .header-section-deskopt section div a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #FFFAFB;
+  font-family: "Lato", sans-serif;
+}
+header .container-fluid {
+  --bs-gutter-x: 0%;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    position: relative;
+  }
+  header .header-section-deskopt {
+    display: none;
+    padding: 0px;
+  }
+  header .header-section-mobile {
+    display: flex;
+    flex-direction: row;
+  }
+  header .header-section-mobile nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .header-section-mobile section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  header .header-section-mobile section .div-logo-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .header-section-mobile section .div-logo-h1 h1 {
+    font-size: 20px;
+    color: #FFFAFB;
+    font-family: "Aboreto", cursive;
+    margin: 5px;
+  }
+  header .header-section-mobile section .div-logo-h1 i {
+    font-size: 30px;
+    margin: 5px;
+    color: #FFFAFB;
+  }
+  header .header-section-mobile section .header-section-iconos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  header .header-section-mobile section .header-section-iconos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  header .header-section-mobile section .header-section-iconos div i {
+    padding: 5px;
+    border: #100B00 solid 2px;
+    border-radius: 50px;
+    color: #100B00;
+    font-size: 15px;
+    background-color: #C1C1C3;
+  }
+  header .header-section-mobile section .header-section-iconos div a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #FFFAFB;
+    font-family: "Lato", sans-serif;
+  }
+  header .offcanvas.offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 60%;
+  }
+  header .header-button {
+    background-color: #FFFAFB;
+    border: #100B00 2px solid;
+    border-radius: 10px;
+  }
+  header .offcanvas-header {
+    background-color: #C1C1C3;
+    border-bottom: #100B00 1px solid;
+  }
+  header .offcanvas-body {
+    background-color: #FFFAFB;
+    display: flex;
+    align-items: start;
+  }
+  header .header-nav-a {
+    color: rgb(85, 10, 33);
+    font-size: 15px;
+  }
+  header .btn-close {
+    --bs-btn-close-focus-shadow: none;
+  }
+  header .navbar {
+    --bs-navbar-toggler-focus-width: none;
+  }
+}
+main {
+  background-color: #FFFAFB;
+  margin: 0px;
+}
+main .main-section-promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  background-image: url(../Imagenes/fondo3x2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .main-section-promo h1 {
+  color: rgb(85, 10, 33);
+  font-family: "Unbounded", cursive;
+  font-weight: bolder;
+}
+main .main-section-promo h1:nth-child(1) {
+  font-size: 140px;
+}
+main .main-section-promo h1:nth-child(2) {
+  font-size: 50px;
+}
+main .main-section-promo h1:nth-child(3) {
+  font-size: 25px;
+}
+main .main-aviso {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+main .main-aviso div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+main .main-aviso div i {
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50px;
+  color: rgb(85, 10, 33);
+}
+main .main-aviso div h1 {
+  font-size: 30px;
+  color: rgb(85, 10, 33);
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+main div .main-buscador {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1%;
+}
+main div .main-buscador input {
+  width: 50%;
+  border-radius: 10px;
+  border: black solid 2px;
+  font-size: 15px;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+}
+main div .main-buscador div button {
+  padding: 4px;
+  margin: 10px;
+  background-color: #FFFAFB;
+  border: 0px;
+}
+main div .main-buscador div button i {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+main .main-section-ofertas-deskopt {
+  overflow: hidden;
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul li {
+  display: inline-block;
+  margin: 1%;
+  padding: 10px;
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul li div {
+  background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+  border: 1px rgba(193, 193, 195, 0.9) solid;
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul li div a img {
+  transition: all 0.5s;
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul li div a img:hover {
+  transform: scale(1.1);
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul li .main-ofertas-letra-tachado {
+  display: flex;
+  justify-content: center;
+  text-decoration: line-through;
+  font-size: 15px;
+}
+main .main-section-ofertas-deskopt div div .catalog-cover ul li p {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin: 0px;
+}
+main .main-section-ingresos-deskopt div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section .main-section-ofertas-mobile {
+  display: none;
+}
+main section .main-section-ingresos-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  main .main-section-promo h1:nth-child(1) {
+    font-size: 100px;
+  }
+  main .main-section-promo h1:nth-child(2) {
+    font-size: 30px;
+  }
+  main .main-section-promo h1:nth-child(3) {
+    font-size: 20px;
+  }
+  main .main-aviso {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  main .main-aviso div h1 {
+    font-size: 25px;
+  }
+  main h3 {
+    font-size: 20PX;
+  }
+  main div .main-buscador input {
+    width: 75%;
+  }
+  main .main-section-ofertas-deskopt {
+    display: none;
+  }
+  main .main-section-ingresos-deskopt {
+    display: none;
+  }
+  main section .main-section-ofertas-mobile {
+    display: block;
+  }
+  main section .main-section-ofertas-mobile div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  main section .main-section-ofertas-mobile div div .main-ofertas-letra-tachado {
+    display: flex;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: line-through;
+  }
+  main section .main-section-ofertas-mobile div div .main-ofertas-letra {
+    display: flex;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  main section .main-section-ingresos-mobile {
+    display: block;
+  }
+  main section .main-section-ingresos-mobile div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  main section .main-section-ingresos-mobile div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .carousel-control-next-icon {
+    display: block;
+    background-image: url(../Imagenes/chevron-right-solid.svg);
+  }
+  .carousel-control-prev-icon {
+    display: block;
+    background-image: url(../Imagenes/chevron-left-solid.svg);
+  }
+}
+main section div .main-label .main-label-borde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #100B00 solid 2px;
+  padding: 4px;
+}
+main section div .main-label .main-label-borde .main-label-div1 {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+main section div .main-label .main-label-borde .main-label-div1 h1 {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+main section div .main-label .main-label-borde .main-label-div1 h3 {
+  display: flex;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+main section div .main-label .main-label-borde .main-label-div2 {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 5px;
+}
+main section div .main-label .main-label-borde .main-label-div2 div span {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  margin: 5px;
+}
+main section div .main-section-remeras-mobile-h3 {
+  display: none;
+}
+main section div .main-section-camisas-mobile {
+  display: none;
+}
+main section div .main-section-pantalones-mobile-h3 {
+  display: none;
+}
+main section div .main-section-pantalonesL-mobile {
+  display: none;
+}
+main section div .main-section-ropaInterior-mobile-h3 {
+  display: none;
+}
+main section div .ropaInteriorHombre-mobile {
+  display: none;
+}
+main .main-section-remeras-mobile-h3 {
+  display: none;
+}
+main .main-section-remerasC-mobile {
+  display: none;
+}
+main .main-section-remerasL-mobile {
+  display: none;
+}
+main .main-section-pantalones-mobile-h3 {
+  display: none;
+}
+main .main-section-pantalonesC-mobile {
+  display: none;
+}
+main .main-section-mallas-mobile {
+  display: none;
+}
+main .main-section-ropaInterior-mobile-h3 {
+  display: none;
+}
+main .main-section-ropaInteriorHombre-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  section div .main-label {
+    display: none;
+  }
+  section div .main-section-camisas-deskopt {
+    display: none !important;
+  }
+  section div .main-section-remeras-mobile-h3 {
+    display: block !important;
+  }
+  section div .main-section-camisas-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  section div .main-section-camisas-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  section div .main-section-camisas-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  section div .main-section-pantalonesL-deskopt {
+    display: none !important;
+  }
+  section div .main-section-pantalones-mobile-h3 {
+    display: block !important;
+  }
+  section div .main-section-pantalonesL-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  section div .main-section-pantalonesL-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  section div .main-section-pantalonesL-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  section div .main-section-ropaInteriorHombre-deskopt {
+    display: none !important;
+  }
+  section div .main-section-ropaInterior-mobile-h3 {
+    display: block !important;
+  }
+  section div .main-section-ropaInteriorHombre-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  section div .main-section-ropaInteriorHombre-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  section div .main-section-ropaInteriorHombre-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .main-section-remeras-mobile-h3 {
+    display: flex !important;
+    margin-left: 5%;
+  }
+  .main-section-remerasC-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .main-section-remerasC-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  .main-section-remerasC-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .main-section-remerasL-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .main-section-remerasL-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  .main-section-remerasL-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .main-section-pantalones-mobile-h3 {
+    display: flex !important;
+    margin-left: 5%;
+  }
+  .main-section-pantalonesC-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .main-section-pantalonesC-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  .main-section-pantalonesC-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .main-section-mallas-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .main-section-mallas-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  .main-section-mallas-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .main-section-ropaInterior-mobile-h3 {
+    display: flex !important;
+    margin-left: 5%;
+  }
+  .main-section-ropaInteriorHombre-mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .main-section-ropaInteriorHombre-mobile div div div img {
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+  }
+  .main-section-ropaInteriorHombre-mobile div div div p {
+    margin-top: 2%;
+    display: flex;
+    font-size: 20px;
+    font-family: "Unbounded", cursive;
+    font-weight: normal;
+  }
+  .main-section-remerasC-deskopt {
+    display: none !important;
+  }
+  .main-section-remerasL-deskopt {
+    display: none !important;
+  }
+  .main-section-pantalonesC-deskopt {
+    display: none !important;
+  }
+  .main-section-mallas-deskopt {
+    display: none !important;
+  }
+  .main-section-ropaInteriorMujer-deskopt {
+    display: none !important;
+  }
+}
+main .main-locales-deskopt div {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+main .main-locales-deskopt h4 {
+  font-family: "Unbounded", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+main .main-locales-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .main-locales-deskopt {
+    display: none;
+  }
+  .main-locales-mobile {
+    display: block !important;
+  }
+  .main-locales-mobile div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .main-locales-mobile h4 {
+    font-family: "Unbounded", cursive;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(26, 25, 25, 0.9);
+}
+footer .footer-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-contacto div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footer-contacto div h2 {
+  font-family: "Unbounded", cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #FFFAFB;
+  margin: 10px;
+}
+footer .footer-contacto div i {
+  margin: 5px;
+  color: #FFFAFB;
+}
+footer .footer-contacto div a {
+  color: #FFFAFB;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+footer .footer-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-redes h2 {
+  font-family: "Unbounded", cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #FFFAFB;
+  margin: 10px;
+}
+footer .footer-redes div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+footer .footer-redes div a i {
+  font-size: 30px;
+  border: #C1C1C3 solid 2px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: rgba(193, 193, 195, 0.6);
+  color: #FFFAFB;
+}
+
+@media only screen and (max-width: 576px) {
+  footer .footer-contacto div {
+    display: flex;
+    gap: 5px;
+    align-items: start;
+    margin-right: 3px;
+  }
+  footer .footer-contacto div h2 {
+    font-size: 20px;
+    margin: 5px;
+  }
+  footer .footer-contacto div i {
+    margin: 5px;
+    color: #FFFAFB;
+  }
+  footer .footer-contacto div a {
+    color: #FFFAFB;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+  }
+  footer .footer-redes {
+    display: flex;
+    align-items: end;
+    margin-left: 3px;
+  }
+  footer .footer-redes div {
+    gap: 7px;
+  }
+  footer .footer-redes div a i {
+    font-size: 18px;
+  }
+}
+.html-form {
+  height: 100%;
+}
+.html-form body {
+  height: 100%;
+}
+.html-form body main {
+  height: 73.6%;
+}
+.html-form body main div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.html-form body main div form {
+  border: 1px solid rgb(26, 26, 26);
+  border-radius: 10px;
+}
+.html-form body main div form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.html-form body main div form ul li {
+  margin: 2%;
+}
+.html-form body main div form ul li label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-family: "Unbounded", cursive;
+  font-weight: normal;
+}
+.html-form body main div form ul li input {
+  font-size: 15px;
+  padding: 5px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #c1c1c1;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+.html-form body main div form ul li input:focus {
+  border-color: rgb(26, 26, 26);
+}
+.html-form body main div form ul .li-button {
+  display: flex;
+  justify-content: end;
+  font-family: "Unbounded", cursive;
+  color: black;
+}
+.html-form body main div form ul .li-button button {
+  background-color: #c1c1c1;
+}
+
+/*# sourceMappingURL=style.css~.map */

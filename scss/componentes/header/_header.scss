@@ -8,10 +8,14 @@ header{
         display: none;
     }
 
+    .header-section-laptop{
+        display: none;
+    }
+
     .header-section-deskopt{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
             div{
                 display: flex;
@@ -85,14 +89,5 @@ header{
                     } 
                 }
             }
-    }
-
-
-    @media only screen and (max-width:1024px){
-
-    }
-
-    .container-fluid{
-        --bs-gutter-x: 0%;
     }
 }

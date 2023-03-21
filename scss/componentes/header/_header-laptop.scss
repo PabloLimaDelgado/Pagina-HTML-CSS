@@ -1,0 +1,100 @@
+@media only screen and (max-width:1400px){
+
+    header{
+
+        background-color: rgb(85, 10, 33);
+        position: sticky;
+        top: 0;
+        margin: 0px;
+
+        .header-section-mobile{
+            display: none;
+        }
+
+        .header-section-deskopt {
+            display: none;
+        }
+
+        .header-section-laptop{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+                div{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 10px;
+            
+                    i{
+                        font-size: 36px;
+                        color: #FFFAFB;
+                        margin: 5px;
+                    }
+            
+                    h1{
+                        margin-top: 5px;
+                        font-size: 30px;
+                        font-family: 'Aboreto', cursive;
+                        color: #FFFAFB;
+                    }
+                }
+
+                ul{
+                    display: flex;
+                    list-style: none;
+                    border: #100B00 solid 2px;
+                    border-radius: 10px;
+                    background-color: #C1C1C3;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    height: 50px;
+
+        
+                    li{
+                        a{
+                            text-decoration: none;
+                            font-size: 20px;
+                            color: #100B00;
+                            font-family: 'Lato', sans-serif;
+                            --bs-nav-link-hover-color: #FFFAFB;
+                        }
+                    }
+                }
+            
+
+            
+                section{
+                    display: flex;
+                    justify-content: space-evenly;
+                    gap: 15px;
+
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 5px;
+            
+                        i{
+                            padding: 10px;
+                            border: #100B00 solid 2px;
+                            border-radius: 50px;
+                            color: #100B00;
+                            font-size: 22px;
+                            background-color: #C1C1C3;
+
+                        }
+                
+                        a{
+                            text-decoration: none;
+                            font-size: 15px;
+                            color: #FFFAFB;
+                            font-family: 'Lato', sans-serif;
+                        } 
+                    }
+                }
+                   
+        }
+    }
+}
