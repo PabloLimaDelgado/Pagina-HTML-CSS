@@ -467,6 +467,7 @@ main section .main-section-ingresos-mobile {
   }
   main h3 {
     font-size: 20PX;
+    margin-top: 5px;
   }
   main div .main-buscador input {
     width: 75%;
@@ -490,6 +491,7 @@ main section .main-section-ingresos-mobile {
     font-weight: normal;
     font-size: 15px;
     text-decoration: line-through;
+    margin-bottom: 2px;
   }
   main section .main-section-ofertas-mobile div div .main-ofertas-letra {
     display: flex;
@@ -497,6 +499,7 @@ main section .main-section-ingresos-mobile {
     font-weight: normal;
     font-size: 20px;
     font-weight: bolder;
+    margin-bottom: 2px;
   }
   main section .main-section-ingresos-mobile {
     display: block;
@@ -608,6 +611,7 @@ main .main-section-ropaInteriorHombre-mobile {
     display: none !important;
   }
   section div .main-section-remeras-mobile-h3 {
+    margin-top: 5px;
     display: block !important;
   }
   section div .main-section-camisas-mobile {
@@ -629,6 +633,7 @@ main .main-section-ropaInteriorHombre-mobile {
     display: none !important;
   }
   section div .main-section-pantalones-mobile-h3 {
+    margin-top: 5px;
     display: block !important;
   }
   section div .main-section-pantalonesL-mobile {
@@ -650,6 +655,7 @@ main .main-section-ropaInteriorHombre-mobile {
     display: none !important;
   }
   section div .main-section-ropaInterior-mobile-h3 {
+    margin-top: 5px;
     display: block !important;
   }
   section div .main-section-ropaInteriorHombre-mobile {
