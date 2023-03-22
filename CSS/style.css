@@ -154,6 +154,9 @@ header .header-section-deskopt section div a {
     display: none;
     padding: 0px;
   }
+  header .header-section-laptop {
+    display: none;
+  }
   header .header-section-mobile {
     display: flex;
     flex-direction: row;
@@ -241,7 +244,7 @@ header .header-section-deskopt section div a {
     --bs-navbar-toggler-focus-width: none;
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   header {
     background-color: rgb(85, 10, 33);
     position: sticky;
