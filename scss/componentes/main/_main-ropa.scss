@@ -99,6 +99,7 @@ main{
 
 
     .main-section-remerasC-deskopt{
+        z-index: 1;
         
         .main-section-remerasC-card{
             @extend %section-card-ropa;
@@ -106,9 +107,10 @@ main{
     }
 
     .main-section-remerasL-deskopt{
+        z-index: 1;
 
         .main-section-remerasL-card{
-            @extend %section-card-ropa;
+            @extend %section-card-ropa;  
         }
     }
 
@@ -165,3 +167,4 @@ main{
         display: none;
     }
 }
+

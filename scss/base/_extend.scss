@@ -34,52 +34,43 @@
     flex-direction: column;
 }
 
-%section-fotos-ropa-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
+
 
 %section-card-ropa{
-    .wrapper { 
-        display: grid;
-        grid-template-columns: repeat(3,100%);
-        overflow: hidden;
-        scroll-behavior: smooth;
+    div{
+        div{
+            div{
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
 
-      section {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin: 20px 0;
-        
-        .item img{
-            margin-top: 10px;
-            padding: 0 2px;
-            background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
-            border: 1px rgba(193, 193, 195, 0.9) solid;
-             
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img{
+                            @extend %fotos;
+                        }
+
+                        p{
+                            @extend %precio;
+                        }
+                    }
+                }
+            }
         }
-        .item p{
-            display: flex;
-            justify-content: center;
-            @extend %precio;
-              
+
+        .carousel-control-next-icon{
+            display: block;
+            background-image:url(../scss/componentes/chevron-right-solid.svg);
         }
-        a {
-          color: black;
-          text-decoration: none;
-          font-size: 6em;
-          width: 80px;
-          padding: 20px;
-          text-align: center;
-          display: flex;
-          align-items: center;
-          
+    
+        .carousel-control-prev-icon{
+            display: block;
+            background-image: url(../scss/componentes/chevron-left-solid.svg);
         }
-        
-      }
     }
 }

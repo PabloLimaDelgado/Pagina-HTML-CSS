@@ -6,16 +6,16 @@ main h3 {
   font-size: 30px;
 }
 
-main .main-section-ingresos-deskopt div a img {
+main .main-section-ingresos-deskopt div a img, main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div div div div div img, main .main-section-mallas-deskopt .main-section-pantalones-card div div div div div img, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div div div div div img, main .main-section-remerasL-deskopt .main-section-remerasL-card div div div div div img, main .main-section-remerasC-deskopt .main-section-remerasC-card div div div div div img, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div div div div div img, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div div div div div img, main section div .main-section-camisas-deskopt .main-section-camisas-card div div div div div img {
   background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
   border: 1px rgba(193, 193, 195, 0.9) solid;
 }
 
-main .main-section-ingresos-deskopt div a img:hover {
+main .main-section-ingresos-deskopt div a img:hover, main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div div div div div img:hover, main .main-section-mallas-deskopt .main-section-pantalones-card div div div div div img:hover, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div div div div div img:hover, main .main-section-remerasL-deskopt .main-section-remerasL-card div div div div div img:hover, main .main-section-remerasC-deskopt .main-section-remerasC-card div div div div div img:hover, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div div div div div img:hover, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div div div div div img:hover, main section div .main-section-camisas-deskopt .main-section-camisas-card div div div div div img:hover {
   border: 1px #100B00 solid;
 }
 
-main .main-section-ingresos-deskopt div p, main .main-section-ofertas-deskopt div div .catalog-cover ul li p, main .main-section-ofertas-deskopt div div .catalog-cover ul li .main-ofertas-letra-tachado, main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section .item p, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section .item p, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section .item p, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section .item p, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section .item p, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section .item p {
+main .main-section-ingresos-deskopt div p, main .main-section-ofertas-deskopt div div .catalog-cover ul li p, main .main-section-ofertas-deskopt div div .catalog-cover ul li .main-ofertas-letra-tachado, main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div div div div div p, main .main-section-mallas-deskopt .main-section-pantalones-card div div div div div p, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div div div div div p, main .main-section-remerasL-deskopt .main-section-remerasL-card div div div div div p, main .main-section-remerasC-deskopt .main-section-remerasC-card div div div div div p, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div div div div div p, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div div div div div p, main section div .main-section-camisas-deskopt .main-section-camisas-card div div div div div p {
   display: flex;
   margin-top: 2%;
   font-size: 20px;
@@ -34,38 +34,24 @@ main section div .main-section-ropaInteriorHombre-deskopt {
   flex-direction: column;
 }
 
-main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 100%);
-  overflow: hidden;
-  scroll-behavior: smooth;
-}
-main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section {
-  width: 100%;
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div div div div, main .main-section-mallas-deskopt .main-section-pantalones-card div div div div, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div div div div, main .main-section-remerasL-deskopt .main-section-remerasL-card div div div div, main .main-section-remerasC-deskopt .main-section-remerasC-card div div div div, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div div div div, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div div div div, main section div .main-section-camisas-deskopt .main-section-camisas-card div div div div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section .item img, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section .item img, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section .item img, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section .item img, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section .item img, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section .item img, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section .item img, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section .item img {
-  margin-top: 10px;
-  padding: 0 2px;
-  background: linear-gradient(45deg, #FFFAFB, #C1C1C3, rgba(34, 34, 36, 0.6117647059));
-  border: 1px rgba(193, 193, 195, 0.9) solid;
-}
-main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section .item p, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section .item p, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section .item p, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section .item p, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section .item p, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section .item p, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section .item p {
-  display: flex;
-  justify-content: center;
-}
-main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card .wrapper section a, main .main-section-mallas-deskopt .main-section-pantalones-card .wrapper section a, main .main-section-pantalonesC-deskopt .main-section-pantalones-card .wrapper section a, main .main-section-remerasL-deskopt .main-section-remerasL-card .wrapper section a, main .main-section-remerasC-deskopt .main-section-remerasC-card .wrapper section a, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card .wrapper section a, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card .wrapper section a, main section div .main-section-camisas-deskopt .main-section-camisas-card .wrapper section a {
-  color: black;
-  text-decoration: none;
-  font-size: 6em;
-  width: 80px;
-  padding: 20px;
-  text-align: center;
-  display: flex;
+  justify-content: space-evenly;
   align-items: center;
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div div div div div, main .main-section-mallas-deskopt .main-section-pantalones-card div div div div div, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div div div div div, main .main-section-remerasL-deskopt .main-section-remerasL-card div div div div div, main .main-section-remerasC-deskopt .main-section-remerasC-card div div div div div, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div div div div div, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div div div div div, main section div .main-section-camisas-deskopt .main-section-camisas-card div div div div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div .carousel-control-next-icon, main .main-section-mallas-deskopt .main-section-pantalones-card div .carousel-control-next-icon, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div .carousel-control-next-icon, main .main-section-remerasL-deskopt .main-section-remerasL-card div .carousel-control-next-icon, main .main-section-remerasC-deskopt .main-section-remerasC-card div .carousel-control-next-icon, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div .carousel-control-next-icon, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div .carousel-control-next-icon, main section div .main-section-camisas-deskopt .main-section-camisas-card div .carousel-control-next-icon {
+  display: block;
+  background-image: url(../scss/componentes/chevron-right-solid.svg);
+}
+main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div .carousel-control-prev-icon, main .main-section-mallas-deskopt .main-section-pantalones-card div .carousel-control-prev-icon, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div .carousel-control-prev-icon, main .main-section-remerasL-deskopt .main-section-remerasL-card div .carousel-control-prev-icon, main .main-section-remerasC-deskopt .main-section-remerasC-card div .carousel-control-prev-icon, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div .carousel-control-prev-icon, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div .carousel-control-prev-icon, main section div .main-section-camisas-deskopt .main-section-camisas-card div .carousel-control-prev-icon {
+  display: block;
+  background-image: url(../scss/componentes/chevron-left-solid.svg);
 }
 
 header {
@@ -73,6 +59,7 @@ header {
   position: sticky;
   top: 0;
   margin: 0px;
+  z-index: 1;
 }
 header .header-section-mobile {
   display: none;
@@ -420,6 +407,7 @@ main .main-section-ofertas-deskopt div div .catalog-cover ul li div {
 }
 main .main-section-ofertas-deskopt div div .catalog-cover ul li div a img {
   transition: all 0.5s;
+  z-index: 2;
 }
 main .main-section-ofertas-deskopt div div .catalog-cover ul li div a img:hover {
   transform: scale(1.1);
@@ -518,11 +506,11 @@ main section .main-section-ingresos-mobile {
   }
   .carousel-control-next-icon {
     display: block;
-    background-image: url(../Imagenes/chevron-right-solid.svg);
+    background-image: url(../scss/componentes/chevron-right-solid.svg);
   }
   .carousel-control-prev-icon {
     display: block;
-    background-image: url(../Imagenes/chevron-left-solid.svg);
+    background-image: url(../scss/componentes/chevron-left-solid.svg);
   }
 }
 main section div .main-label .main-label-borde {
@@ -578,6 +566,12 @@ main section div .main-section-ropaInterior-mobile-h3 {
 }
 main section div .ropaInteriorHombre-mobile {
   display: none;
+}
+main .main-section-remerasC-deskopt {
+  z-index: 1;
+}
+main .main-section-remerasL-deskopt {
+  z-index: 1;
 }
 main .main-section-remeras-mobile-h3 {
   display: none;

@@ -119,6 +119,7 @@ main{
                             a{
                                 img{
                                     transition: all 0.5s;
+                                    z-index: 2;
                                 }
         
                                 img:hover{
