@@ -56,10 +56,11 @@ main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div
 
 header {
   background-color: rgb(85, 10, 33);
+  border: 1px solid rgb(36, 7, 26);
   position: sticky;
   top: 0;
   margin: 0px;
-  z-index: 1;
+  z-index: 2;
 }
 header .header-section-mobile {
   display: none;
@@ -232,12 +233,6 @@ header .header-section-deskopt section div a {
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-  header {
-    background-color: rgb(85, 10, 33);
-    position: sticky;
-    top: 0;
-    margin: 0px;
-  }
   header .header-section-mobile {
     display: none;
   }
@@ -836,6 +831,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: rgba(26, 25, 25, 0.9);
+  border: 1px solid rgb(26, 25, 25);
 }
 footer .footer-contacto {
   display: flex;
