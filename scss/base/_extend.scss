@@ -1,0 +1,80 @@
+%titulos{
+    font-family: 'Unbounded', cursive;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: #100B00;
+    font-size: 30px;
+}
+
+%fotos{
+    background: linear-gradient(45deg, #FFFAFB, #C1C1C3, #2222249C);
+    border: 1px rgba(193, 193, 195, 0.9) solid;
+}
+
+%fotos:hover{
+    border: 1px #100B00 solid;
+}
+
+%precio{
+    display: flex;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: normal;
+}
+
+%section-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+%section-fotos-ropa{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+%section-card-ropa{
+    div{
+        div{
+            div{
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img{
+                            @extend %fotos;
+                        }
+
+                        p{
+                            @extend %precio;
+                        }
+                    }
+                }
+            } 
+        }
+
+        .carousel-control-next-icon{
+            display: block;
+            background-image:url(../scss/componentes/chevron-right-solid.svg);
+            width: 13%;
+            z-index: 1;
+        }
+    
+        .carousel-control-prev-icon{
+            display: block;
+            background-image: url(../scss/componentes/chevron-left-solid.svg);
+            width: 13%;
+            z-index: 1;
+        }
+    }
+}

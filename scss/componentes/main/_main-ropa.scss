@@ -1,0 +1,177 @@
+main{
+    section{
+        div{
+            .main-label{
+
+                .main-label-borde {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: #100B00 solid 2px;
+                    padding: 4px;
+
+                    .main-label-div1{
+                        display: flex;
+                        flex-direction: column;
+                        align-self: start;
+
+                        h1{
+                            font-size: 25px;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: lighter;
+                        }
+
+                        h3{
+                            display: flex;
+                            font-size: 20px;
+                            font-family: 'Lato', sans-serif;
+                            font-weight: lighter;
+                            text-decoration: none;
+                        }
+                    }
+
+                    .main-label-div2{
+                        display: flex;
+                        flex-direction: column;
+                        align-self: end;
+                        gap: 5px;
+
+                        div{
+                            span{
+                                font-size: 15px;
+                                font-family: 'Lato', sans-serif;
+                                margin: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-section-camisas-deskopt{
+                scroll-margin-top: 85px;
+                
+                .main-section-camisas-card{
+                    @extend %section-card-ropa;
+                }
+            }
+
+            .main-section-pantalonesL-deskopt{
+                scroll-margin-top: 85px;
+        
+                .main-section-pantalones-card{
+                    @extend %section-card-ropa;
+                }
+            }
+
+            .main-section-ropaInteriorHombre-deskopt{
+                scroll-margin-top: 85px;
+                @extend %section-fotos-ropa;
+
+                .main-section-ropaInterior-card{
+                    @extend %section-card-ropa;
+                }
+            }
+
+            .main-section-remeras-mobile-h3{
+                display: none;
+            }
+
+            .main-section-camisas-mobile{
+                display: none;
+            }
+
+            .main-section-pantalones-mobile-h3{
+                display: none;
+            }
+
+            .main-section-pantalonesL-mobile{
+                display: none;
+            }
+
+            .main-section-ropaInterior-mobile-h3{
+                display: none;
+            }
+
+            .ropaInteriorHombre-mobile{
+                display: none;
+            }
+
+        }
+    }
+
+
+    .main-section-remerasC-deskopt{
+        z-index: 1;
+        scroll-margin-top: 85px;
+        
+        .main-section-remerasC-card{
+            @extend %section-card-ropa;
+        }
+    }
+
+    .main-section-remerasL-deskopt{
+        scroll-margin-top: 85px;
+
+        .main-section-remerasL-card{
+            @extend %section-card-ropa;  
+        }
+    }
+
+    .main-section-pantalonesC-deskopt{
+        scroll-margin-top: 85px;
+
+        .main-section-pantalones-card{
+            @extend %section-card-ropa;
+        }
+    }
+
+    .main-section-mallas-deskopt{
+        scroll-margin-top: 85px;
+
+        .main-section-pantalones-card{
+            @extend %section-card-ropa;
+        }
+    }
+
+    .main-section-ropaInteriorMujer-deskopt{
+        scroll-margin-top: 85px;
+
+        .main-section-ropaInterior-card{
+            @extend %section-card-ropa;
+        }
+    }
+         
+    .main-section-remeras-mobile-h3{
+        display: none;
+    }
+
+    .main-section-remerasC-mobile{
+        display: none;
+    }
+
+    .main-section-remerasL-mobile{
+        display: none;
+    }
+
+    .main-section-pantalones-mobile-h3{
+        display: none;
+    }
+
+    .main-section-pantalonesC-mobile{
+        display: none;
+    }
+
+    .main-section-mallas-mobile{
+        display: none;
+    }
+
+    .main-section-ropaInterior-mobile-h3{
+        display: none;
+    }
+
+    .main-section-ropaInteriorHombre-mobile{
+        display: none;
+    }
+}
+

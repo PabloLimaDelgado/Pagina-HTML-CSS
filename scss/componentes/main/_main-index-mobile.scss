@@ -1,0 +1,110 @@
+@media only screen and (max-width:576px){
+    main{
+        .main-section-promo{
+        
+            h1:nth-child(1) {
+                font-size: 100px;
+            }
+
+            h1:nth-child(2) {
+                font-size: 30px;
+            }
+
+            h1:nth-child(3) {
+                font-size: 20px;
+            }
+        }
+
+        .main-aviso{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            div {
+                h1{
+                    font-size: 25px;
+                }
+            }
+        }
+
+        h3{
+            font-size: 20PX;
+            margin-top: 5px;
+        }
+
+        div{
+            .main-buscador{
+                input{
+                    width: 75%;
+                }
+            }
+        }
+
+
+        .main-section-ofertas-deskopt{
+            display: none;
+        }
+
+        .main-section-ingresos-deskopt{
+            display: none;
+        }
+
+        section{
+            .main-section-ofertas-mobile {
+                display: block;
+
+                div{
+                    div{
+                      img{
+                          @include fotos();
+                        }
+                        
+                        .main-ofertas-letra-tachado{
+                            display: flex;
+                            font-family: 'Unbounded', cursive;
+                            font-weight: normal;
+                            font-size: 15px;
+                            text-decoration: line-through;
+                            margin-bottom: 2px;
+                        }
+                            
+                        .main-ofertas-letra{
+                            display: flex;
+                            font-family: 'Unbounded', cursive;
+                            font-weight: normal;
+                            font-size: 20px;
+                            font-weight: bolder; 
+                            margin-bottom: 2px;
+                        }
+                    }
+                }
+            }
+
+            .main-section-ingresos-mobile{
+                display: block;
+
+                div{
+                    div{
+                      img{
+                            @include fotos();
+                        }
+                        
+                        p{
+                            @include precio();
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carousel-control-next-icon{
+        display: block;
+        background-image:url(../scss/componentes/chevron-right-solid.svg);
+    }
+
+    .carousel-control-prev-icon{
+        display: block;
+        background-image: url(../scss/componentes/chevron-left-solid.svg);
+    }
+}

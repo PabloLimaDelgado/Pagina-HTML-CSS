@@ -1,0 +1,224 @@
+@media only screen and (max-width:576px){
+    section{
+        div{
+            .main-label{
+                display: none;
+            }
+
+            .main-section-camisas-deskopt{
+                display: none !important;
+            }
+
+            .main-section-remeras-mobile-h3{
+                margin-top: 5px;
+                display: block !important;
+            }
+
+            .main-section-camisas-mobile{
+                display: flex !important;
+                flex-direction: column;
+
+                div{
+                    div{
+                        div{
+                            img{
+                                @include fotos();
+                            }
+    
+                            p{
+                                @include precio();
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-section-pantalonesL-deskopt{
+                display: none !important;
+            }
+
+            .main-section-pantalones-mobile-h3{
+                margin-top: 5px;
+                display: block !important;
+            }
+
+            .main-section-pantalonesL-mobile{
+                display: flex !important;
+                flex-direction: column;
+
+                div{
+                    div{
+                        div{
+                            img{
+                                @include fotos();
+                            }
+    
+                            p{
+                                @include precio();
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-section-ropaInteriorHombre-deskopt{
+                display: none !important;
+            }
+
+            .main-section-ropaInterior-mobile-h3{
+                margin-top: 5px;
+                display: block !important;
+            }
+
+            .main-section-ropaInteriorHombre-mobile{
+                display: flex !important;
+                flex-direction: column;
+
+                div{
+                    div{
+                        div{
+                            img{
+                                @include fotos();
+                            }
+    
+                            p{
+                                @include precio();
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .main-section-remeras-mobile-h3{
+        display: flex !important;
+        margin-left: 5%;
+    }
+
+    .main-section-remerasC-mobile{
+        display: flex !important;
+        flex-direction: column;
+
+        div{
+            div{
+                div{
+                    img{
+                        @include fotos();
+                    }
+
+                    p{
+                        @include precio();
+                    }
+                }
+            }
+        }
+    }
+
+    .main-section-remerasL-mobile{
+        display: flex !important;
+        flex-direction: column;
+
+        div{
+            div{
+                div{
+                    img{
+                        @include fotos();
+                    }
+
+                    p{
+                        @include precio();
+                    }
+                }
+            }
+        }
+    }
+
+    .main-section-pantalones-mobile-h3{
+        display: flex !important;
+        margin-left: 5%;
+    }
+
+    .main-section-pantalonesC-mobile{
+        display: flex !important;
+        flex-direction: column;
+
+        div{
+            div{
+                div{
+                    img{
+                        @include fotos();
+                    }
+
+                    p{
+                        @include precio();
+                    }
+                }
+            }
+        }
+    }
+
+    .main-section-mallas-mobile{
+        display: flex !important;
+        flex-direction: column;
+
+        div{
+            div{
+                div{
+                    img{
+                        @include fotos();
+                    }
+
+                    p{
+                        @include precio();
+                    }
+                }
+            }
+        }
+    }
+
+    .main-section-ropaInterior-mobile-h3{
+        display: flex !important;
+        margin-left: 5%;
+    }
+
+    .main-section-ropaInteriorHombre-mobile{
+        display: flex !important;
+        flex-direction: column;
+
+        div{
+            div{
+                div{
+                    img{
+                        @include fotos();
+                    }
+
+                    p{
+                        @include precio();
+                    }
+                }
+            }
+        }
+    }
+    
+    .main-section-remerasC-deskopt{
+        display: none !important; 
+    }
+
+    .main-section-remerasL-deskopt{
+        display: none !important;
+    }
+
+    .main-section-pantalonesC-deskopt{
+        display: none !important;
+    }
+
+    .main-section-mallas-deskopt{
+        display: none !important;
+    }
+
+    .main-section-ropaInteriorMujer-deskopt{
+        display: none !important;
+    }
+}

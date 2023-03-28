@@ -1,0 +1,45 @@
+@media only screen and (max-width:576px){
+    footer{
+        .footer-contacto{
+
+            div{
+                display: flex;
+                gap: 5px;
+                align-items: start;
+                margin-right: 3px;
+
+                h2{
+                    font-size: 20px;
+                    margin: 5px;
+                }
+
+                i{
+                    margin: 5px;
+                    color: #FFFAFB;
+                }
+
+                a{
+                    color: #FFFAFB;
+                    font-family: 'Lato', sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .footer-redes{
+            display: flex;
+            align-items: end;
+            margin-left: 3px;
+
+            div{
+                gap: 7px;
+
+                a{
+                    i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
