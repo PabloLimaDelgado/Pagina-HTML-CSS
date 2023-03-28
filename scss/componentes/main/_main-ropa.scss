@@ -49,6 +49,7 @@ main{
             }
 
             .main-section-camisas-deskopt{
+                scroll-margin-top: 85px;
                 
                 .main-section-camisas-card{
                     @extend %section-card-ropa;
@@ -56,6 +57,7 @@ main{
             }
 
             .main-section-pantalonesL-deskopt{
+                scroll-margin-top: 85px;
         
                 .main-section-pantalones-card{
                     @extend %section-card-ropa;
@@ -63,6 +65,7 @@ main{
             }
 
             .main-section-ropaInteriorHombre-deskopt{
+                scroll-margin-top: 85px;
                 @extend %section-fotos-ropa;
 
                 .main-section-ropaInterior-card{
@@ -100,6 +103,7 @@ main{
 
     .main-section-remerasC-deskopt{
         z-index: 1;
+        scroll-margin-top: 85px;
         
         .main-section-remerasC-card{
             @extend %section-card-ropa;
@@ -107,7 +111,7 @@ main{
     }
 
     .main-section-remerasL-deskopt{
-        z-index: 1;
+        scroll-margin-top: 85px;
 
         .main-section-remerasL-card{
             @extend %section-card-ropa;  
@@ -115,6 +119,7 @@ main{
     }
 
     .main-section-pantalonesC-deskopt{
+        scroll-margin-top: 85px;
 
         .main-section-pantalones-card{
             @extend %section-card-ropa;
@@ -122,6 +127,7 @@ main{
     }
 
     .main-section-mallas-deskopt{
+        scroll-margin-top: 85px;
 
         .main-section-pantalones-card{
             @extend %section-card-ropa;
@@ -129,6 +135,7 @@ main{
     }
 
     .main-section-ropaInteriorMujer-deskopt{
+        scroll-margin-top: 85px;
 
         .main-section-ropaInterior-card{
             @extend %section-card-ropa;
@@ -167,4 +174,3 @@ main{
         display: none;
     }
 }
-

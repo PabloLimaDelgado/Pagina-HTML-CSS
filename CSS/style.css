@@ -47,11 +47,11 @@ main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div
 }
 main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div .carousel-control-next-icon, main .main-section-mallas-deskopt .main-section-pantalones-card div .carousel-control-next-icon, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div .carousel-control-next-icon, main .main-section-remerasL-deskopt .main-section-remerasL-card div .carousel-control-next-icon, main .main-section-remerasC-deskopt .main-section-remerasC-card div .carousel-control-next-icon, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div .carousel-control-next-icon, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div .carousel-control-next-icon, main section div .main-section-camisas-deskopt .main-section-camisas-card div .carousel-control-next-icon {
   display: block;
-  background-image: url(../scss/componentes/chevron-right-solid.svg);
+  background-image: url(../Imagenes/chevron-right-solid.svg);
 }
 main .main-section-ropaInteriorMujer-deskopt .main-section-ropaInterior-card div .carousel-control-prev-icon, main .main-section-mallas-deskopt .main-section-pantalones-card div .carousel-control-prev-icon, main .main-section-pantalonesC-deskopt .main-section-pantalones-card div .carousel-control-prev-icon, main .main-section-remerasL-deskopt .main-section-remerasL-card div .carousel-control-prev-icon, main .main-section-remerasC-deskopt .main-section-remerasC-card div .carousel-control-prev-icon, main section div .main-section-ropaInteriorHombre-deskopt .main-section-ropaInterior-card div .carousel-control-prev-icon, main section div .main-section-pantalonesL-deskopt .main-section-pantalones-card div .carousel-control-prev-icon, main section div .main-section-camisas-deskopt .main-section-camisas-card div .carousel-control-prev-icon {
   display: block;
-  background-image: url(../scss/componentes/chevron-left-solid.svg);
+  background-image: url(../Imagenes/chevron-left-solid.svg);
 }
 
 header {
@@ -549,6 +549,15 @@ main section div .main-label .main-label-borde .main-label-div2 div span {
   font-family: "Lato", sans-serif;
   margin: 5px;
 }
+main section div .main-section-camisas-deskopt {
+  scroll-margin-top: 85px;
+}
+main section div .main-section-pantalonesL-deskopt {
+  scroll-margin-top: 85px;
+}
+main section div .main-section-ropaInteriorHombre-deskopt {
+  scroll-margin-top: 85px;
+}
 main section div .main-section-remeras-mobile-h3 {
   display: none;
 }
@@ -569,9 +578,19 @@ main section div .ropaInteriorHombre-mobile {
 }
 main .main-section-remerasC-deskopt {
   z-index: 1;
+  scroll-margin-top: 85px;
 }
 main .main-section-remerasL-deskopt {
-  z-index: 1;
+  scroll-margin-top: 85px;
+}
+main .main-section-pantalonesC-deskopt {
+  scroll-margin-top: 85px;
+}
+main .main-section-mallas-deskopt {
+  scroll-margin-top: 85px;
+}
+main .main-section-ropaInteriorMujer-deskopt {
+  scroll-margin-top: 85px;
 }
 main .main-section-remeras-mobile-h3 {
   display: none;
